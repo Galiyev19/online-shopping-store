@@ -45,9 +45,9 @@ const Header = () => {
                     </div>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id="basic-navbar-nav" >
-                        <Nav className="mx-5 d-flex justify-content-between w-100">
+                        <Nav className="user_block">
                             <input className="form-control w-50" placeholder="Введите имя товара"/>
-                            <div className="d-flex flex-row align-items-center mx-2">
+                            <div className="user_block_item">
                                 <NavLink as={Link} to="/shopping-cart"
                                          className="fw-bold d-flex flex-column align-items-center">
                                     <div className="d-flex flex-row align-items-center">
