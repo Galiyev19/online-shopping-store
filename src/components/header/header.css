@@ -1,0 +1,15 @@
+.user_img_block{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+.img_user{
+    border-radius: 50%;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none ;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  background: #141C24;
+  min-height: 100vh;
+}
+
+.offset{
+  margin: 0 auto;
+  max-width: 1620px;
+  width: 100%;
+}
+
+
+

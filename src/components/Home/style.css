@@ -1,0 +1,31 @@
+.list_grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.image{
+    height: 400px;
+    width: 100%;
+    transition: .3s;
+}
+
+.card{
+    height: 100%;
+    padding: 6px 8px;
+    transition: .3s;
+    margin: 24px 16px;
+}
+
+.card:hover{
+    cursor: pointer;
+    /*transform: scale(1.1);*/
+}
+
+.rating_text_color{
+    font-size: 24px;
+    color: gold;
+}
+
+.text_header{
+    color: #ffff;
+}

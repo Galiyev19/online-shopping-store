@@ -1,0 +1,12 @@
+.items-in-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+    z-index: 2;
+    height: 20px;
+    width: 20px;
+    font-size: 15px;
+    margin-left: 2px;
+    border-radius: 50%;
+}

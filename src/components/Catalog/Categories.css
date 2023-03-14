@@ -1,0 +1,28 @@
+.menu_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu_block_item{
+    height: 400px;
+    width: 500px;
+    margin: 25px;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    transition: .3s;
+}
+
+.menu_block_item:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.name_categories{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 32px;
+    color: #48D1CC;
+}

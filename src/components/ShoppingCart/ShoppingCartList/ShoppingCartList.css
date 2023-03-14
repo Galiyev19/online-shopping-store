@@ -1,0 +1,52 @@
+.img_shoppingCart {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+}
+
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+
+
+.count {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    margin: 0px 5px;
+}
+
+.price {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.price_des {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.trash{
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+.trash:hover{
+    cursor: pointer;
+    color: red;
+}
