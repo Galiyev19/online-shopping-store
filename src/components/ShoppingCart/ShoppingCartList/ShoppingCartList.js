@@ -26,12 +26,12 @@ const ShoppingCartList = ({ shoppingCart }) => {
 
 
     return (
-        <div className="d-flex flex-column ">
+        <div className="shopping_cart_block_product_item">
             {
                 shoppingCart.map(item =>
-                    <div className="d-flex align-items-center bg-light rounded p-2 shadow bg-body w-100 justify-content-between mb-3" key={item.id}>
+                    <div className="shopping_cart_block_product_item_info" key={item.id}>
                         <img alt="product image" className='img_shoppingCart' src={item.product.image} />
-                        <div className="d-flex w-100  justify-content-between align-items-center">
+                        <div className="shopping_cart_block_product_item_info__item">
                             <div className="d-flex flex-column m-3 w-50">
                                 <span className="title">{item.product.title}</span>
                                 <span className="title">{item.product.price} <FaDollarSign /> <span className="price_des">за шт.</span></span>
@@ -44,8 +44,8 @@ const ShoppingCartList = ({ shoppingCart }) => {
                             <div className="d-flex align-items-center">
                                 <span  className="price">{item.total}</span> <FaDollarSign/>
                             </div>
-                        </div>
                         <BsTrash className="trash" onClick={() => {deleteCart(item.id)}}/>
+                        </div>
                     </div>
 
                 )

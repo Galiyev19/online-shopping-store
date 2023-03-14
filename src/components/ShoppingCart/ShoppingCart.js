@@ -40,13 +40,13 @@ const ShoppingCart = () => {
 
 
     return (
-        <div className="d-flex flex-column w-100 py-3">
+        <div className="d-flex flex-column w-100 p-3">
             <h1 className="text-white">Корзина</h1>
-            <div className="d-flex flex-row">
-                <div className="d-flex w-50 m-2">
+            <div className="shopping_cart_block">
+                <div className="shopping_cart_block_product">
                     {shoppingCart.length !== 0 ? <ShoppingCartList shoppingCart={shoppingCart} /> : <h2 className="text-white">Пусто</h2>}
                 </div>
-                <div className="d-flex flex-column w-50 h-25 m-2 border border-light p-2 rounded">
+                <div className="shopping_cart_block_total">
                     <h2 className="text-white">Итого</h2>
                     <div className="d-flex justify-content-between mb-3">
                         <span className="text-white"><span className="fw-bold text-white">{shoppingCart.length}</span> товара на сумму</span>

@@ -1,3 +1,24 @@
+.shopping_cart_block{
+    display: flex;
+}
+
+.shopping_cart_block_product{
+    display: flex;
+    width: 50%;
+    margin-right: 16px;
+}
+
+
+
+.shopping_cart_block_total{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid rgb(248,249,250);
+    border-radius: 0.375rem;
+    padding: 8px;
+}
+
 .total_text{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
@@ -11,4 +32,19 @@
 .icons{
     font-size: 150px;
     color: green;
+}
+
+@media (max-width: 996px) {
+    .shopping_cart_block{
+        flex-direction: column;
+    }
+
+    .shopping_cart_block_product{
+        width: 100%;
+        margin: 0;
+    }
+
+    .shopping_cart_block_total{
+        width: 100%;
+    }
 }

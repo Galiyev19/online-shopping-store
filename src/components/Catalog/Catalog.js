@@ -1,7 +1,6 @@
-import React, {useEffect, useState} from 'react'
+import React from 'react'
 import { useSelector, useDispatch } from "react-redux"
 import {getSingleCategory} from '../../Features/categoriesSlice'
-import {useNavigate} from "react-router";
 import {Link}  from "react-router-dom"
 
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -10,7 +9,6 @@ import "./Categories.css"
 const Catalog = () => {
 
     const categories = useSelector(state => state.categories.categories)
-    const category = useSelector(state => state.categories.category)
 
 
     const dispatch  = useDispatch();

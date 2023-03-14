@@ -26,3 +26,11 @@
     font-size: 32px;
     color: #48D1CC;
 }
+
+@media (max-width: 1125px) {
+    .menu_block{
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
